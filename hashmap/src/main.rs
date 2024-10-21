@@ -10,7 +10,7 @@ fn main() {
     marks.insert(String::from("English"), 78);
 
     // Printing the HashMap
-    println!("Marks HashMap: {:?}", marks);  // Prints the HashMap
+    println!("Marks HashMap: {:?}", marks); // Prints the HashMap
 
     // Accessing a value using a key
     let subject = String::from("Math");
@@ -26,7 +26,7 @@ fn main() {
     }
 
     // Modifying a value
-    marks.insert(String::from("Math"), 95);  // Updating the mark for Math
+    marks.insert(String::from("Math"), 95); // Updating the mark for Math
     println!("Updated Marks HashMap: {:?}", marks);
 
     // Removing an entry
